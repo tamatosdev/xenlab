@@ -50,7 +50,7 @@ export function Footer() {
 
         {/* Bottom — Copyright and Legal */}
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-border pt-8 text-xs text-muted-foreground md:flex-row md:items-center">
-          <p>© 2026 XENLabs.ai — All rights reserved.</p>
+          <p>© 2026 XENLabs.ai — All rights reserved. </p>
           <div className="flex gap-4">
             <a href="/privacy" className="text-foreground/60 transition-colors duration-200 hover:text-primary">Privacy Policy</a>
             <a href="/terms" className="text-foreground/60 transition-colors duration-200 hover:text-primary">Terms of Service</a>
