@@ -552,7 +552,7 @@ function ServicesPage() {
             Simple pricing. Serious results.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
-            Plans starting from $997/mo. Compare this to hiring a video team, editor and copywriter — which runs <span className="text-accent-orange">$8,000–15,000 </span>per month. XENLabs delivers all three at a fraction of the cost. Custom packages available based on your goals, platforms and content volume.
+            Plans starting from <span className="text-accent-orange">$997/mo</span>. Compare this to hiring a video team, editor and copywriter — which runs <span className="text-accent-orange">$8,000–15,000 </span>per month. XENLabs delivers all three at a fraction of the cost. Custom packages available based on your goals, platforms and content volume.
           </p>
 
           <div className="mt-10">
