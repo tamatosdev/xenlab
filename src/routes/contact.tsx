@@ -6,7 +6,7 @@ import { Mail, Calendar, MessageSquare } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact â€” Book a Free Strategy Call Â· XENLabs.ai" },
+      { title: "Contact - Book a Free Strategy Call A· XENLabs.ai" },
       {
         name: "description",
         content:
