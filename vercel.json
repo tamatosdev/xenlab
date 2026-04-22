@@ -1,6 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "rootDirectory": "src",
-  "installCommand": "npm install"
+  "buildCommand": "cd src && npm install && npm run build",
+  "outputDirectory": "src/dist",
+  "installCommand": "echo skip"
 }
