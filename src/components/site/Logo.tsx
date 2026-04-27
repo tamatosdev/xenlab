@@ -1,17 +1,18 @@
 import { Link } from "@tanstack/react-router";
+import xenLabLogo from "@/assets/XENLAB-Logo.png";
 
 export function Logo({ className = "" }: { className?: string }) {
   return (
     <Link
       to="/"
       aria-label="XENLabs.ai — Home"
-      className={`group inline-flex items-baseline font-display text-lg tracking-tight md:text-xl ${className}`}
+      className={`inline-flex items-center ${className}`}
     >
-      <span className="font-bold text-foreground">XEN</span>
-      <span className="font-medium text-foreground/70">Labs</span>
-      <span className="font-semibold text-primary/80 transition-opacity group-hover:opacity-100">
-        .ai
-      </span>
+      <img
+        src={xenLabLogo}
+        alt="XENLabs.ai"
+        className="h-8 w-auto md:h-10"
+      />
     </Link>
   );
 }
