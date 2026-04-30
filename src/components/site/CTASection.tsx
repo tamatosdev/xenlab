@@ -1,7 +1,19 @@
 import { CTAButton } from "./CTAButton";
 import { Reveal } from "./Reveal";
 
-export function CTASection() {
+interface CTASectionProps {
+  heading?: React.ReactNode;
+  text?: string;
+}
+
+export function CTASection({
+  heading = (
+    <>
+      Your competitor just <span className="text-accent-orange">posted again.</span>
+    </>
+  ),
+  text = "Every day you're not showing up online is a day someone else is taking your audience. Book a free 30-minute strategy call — we'll show you exactly what your content presence could look like in 90 days.",
+}: CTASectionProps = {}) {
   return (
     <section className="relative overflow-hidden border-t border-[#222] bg-[#080808] py-24 md:py-36">
       {/* Radial glow behind content */}
@@ -22,13 +34,11 @@ export function CTASection() {
             </span>
 
             <h2 className="mt-6 font-display text-4xl font-semibold leading-[1.05] tracking-tight md:text-6xl">
-              Your competitor just <span className="text-accent-orange">posted again.</span>
+              {heading}
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-              Every day you&apos;re not showing up online is a day someone else is taking your
-              audience. Book a free 30-minute strategy call — we&apos;ll show you exactly what your
-              content presence could look like in 90 days.
+              {text}
             </p>
 
             <div className="mt-10 flex flex-col items-center gap-3">
