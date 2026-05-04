@@ -318,7 +318,7 @@ function PricingPage() {
                   <ul className="mt-6 flex-1 space-y-4">
                     {engagementFeatures.map((f) => (
                       <li key={f} className="flex items-start gap-3">
-                        <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#FF6B2B]" />
+                        <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-[#00d492]" />
                         <span className="text-sm text-foreground/80">{f}</span>
                       </li>
                     ))}
